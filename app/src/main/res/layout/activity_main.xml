@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Employee Hiring Form"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/rusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/remail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rconfirmpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Confirm Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rexpsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Expected Salary"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rprojects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="No. of Projects Handle at once?"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rspeciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputstyle"
+        android:hint="Speciality"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+
+
+    <Button
+        android:id="@+id/rbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:text="Register"
+        />
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "employee_hiring_form_sqlite"
